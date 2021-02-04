@@ -81,10 +81,10 @@
 
 		</plugins>
 	</build>
-	<scm>
-      <connection>scm:git:https://github.com/melMoon1234/MavenWebTest.git</connection>
-      <developerConnection>scm:git:https://github.com/melMoon1234/MavenWebTest.git</developerConnection>
-	  <url>https://github.com/melMoon1234/MavenWebTest.git</url>
+    <scm>
+          <connection>scm:git:https://github.com/melMoon1234/MavenWebTest.git</connection>
+          <developerConnection>scm:git:https://github.com/melMoon1234/MavenWebTest.git</developerConnection>
+	      <url>https://github.com/melMoon1234/MavenWebTest.git</url>
     </scm>
 
 </project>
