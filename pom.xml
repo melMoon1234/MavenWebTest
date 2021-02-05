@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>api</groupId>
 	<artifactId>api</artifactId>
-	<version>0.0.6</version>
+	<version>0.0.7-SNAPSHOT</version>
 	<name>api</name>
 	<packaging>war</packaging>
 
@@ -84,7 +84,7 @@
     	<url>https://github.com/melMoon1234/MavenWebTest</url>
     	<connection>scm:git:git://github.com/melMoon1234/MavenWebTest.git</connection>
     	<developerConnection>scm:git:git@github.com:melMoon1234/MavenWebTest.git</developerConnection>
-    	<tag>api-0.0.6</tag>
+    	<tag>api-0.0.2</tag>
 	</scm>
 
 
