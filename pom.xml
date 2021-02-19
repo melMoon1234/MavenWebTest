@@ -78,6 +78,27 @@
 				</configuration>
 			</plugin>
 
+			<plugin>
+-				<groupId>com.bazaarvoice.maven.plugins</groupId>
+-				<artifactId>s3-upload-maven-plugin</artifactId>
+-				<version>1.4</version>
+-				<configuration>
+-					<accessKey>${aws_access_key_id}</accessKey>
+-					<secretKey>${aws_secret_access_key}</secretKey>
+-					<bucketName>k12-infinity-lambdas</bucketName>
+-					<source>target/api.war</source>
+-					<destination>api.war</destination>
+-				</configuration>
+-				<executions>
+-					<execution>
+-						<phase>install</phase>
+-						<goals>
+-							<goal>s3-upload</goal>
+-						</goals>
+-					</execution>
+-				</executions>
+-			</plugin>
+
 		</plugins>
 	</build>   
 	<scm>
